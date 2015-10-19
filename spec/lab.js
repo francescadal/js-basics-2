@@ -10,18 +10,20 @@ var paragraph =
 
 // 1. Write a function that splits a string into an array of normalized words,
 //    (lowercase without punctuation).
-var words = paragraph.split(/\s+/).toLowerCase();
- for ()
-
-
+v
 
 
 
 // 2. Write a function that takes a string and returns an array of it's unique
 //    normalized words.
 
-var getNormalizedWords = function getNormalizedWords() {};
+var getNormalizedWords = function getNormalizedWords(words) {
+  var splitWords;
+  splitWords = words.split(/\s+/);
 
+  var normalizedWords = [];
+  for(var i = 0 < splitwords.length (/[^\w']+/), ' ').toLowerCase()
+};
 
 
 
